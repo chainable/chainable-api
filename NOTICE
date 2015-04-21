@@ -1,0 +1,46 @@
+==============================================================================
+ = NOTICE file corresponding to section 4d of the Apache License, Version 2.0 =
+ ==============================================================================
+
+                                Concourse
+                    Copyright 2000-2015 Bemobi
+
+ 1. Includes software developed by the Apache Software Foundation
+     (http://www.apache.org) or released under the Apache License,
+     Version 2.0:
+
+  2. Includes software released under the MIT License, which is compatible with
+     the Apache License, Version 2.0:
+
+      SLF4J
+      -----
+      A simple facade or abstraction for various logging frameworks
+      (e.g. java.util.logging, logback, log4j) allowing the end user to plug in
+      the desired logging framework at deployment time.
+
+      http://www.slf4j.org/
+      Copyright 2004-2015 QOS.ch
+
+3. Includes software, released under various licenses, that has been modified:
+
+4. Includes software, released under other licenses:
+
+      Servlet API (GPL w/ Classpath Exception)
+      ----------------------------------------
+      The Java Servlet Specification API is linked in compliance with the GNU
+      General Public License Classpath Exception.
+
+      https://java.net/projects/servlet-spec
+      Copyright 2007-2015 Oracle and/or its affiliates
+
+      JSR 305 (BSD 3-Clause License)
+      ------------------------------
+      Contains reference implementations, test cases, and other documents under
+      source code control for Java Specification Request 305: Annotations for
+      Software Defect Detection.
+
+      https://code.google.com/p/jsr-305/
+      Copyright 2007-2009 JSR305 expert group
+
+5. Includes software, that is not distributed but is used to help produce
+   various artifacts that are distributed:
