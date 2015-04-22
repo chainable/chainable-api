@@ -9,14 +9,14 @@ A commons-chains clone with our flavor of modifications
 
 
 
-# Chains 101
+## Chains 101
 ![Chain](http://i.imgur.com/M96Dq9M.png)
 
-# The Almight Command
+## The almight Command
 ![Command](http://i.imgur.com/jfB7SGZ.png)
 
-# Do you pipes and _Filters_?
+## Do you | and _Filter_?
 ![Filters](http://i.imgur.com/2Otvfng.png)
 
-# It's all about _Context_
+## It's all about _Context_
 ![Context](http://i.imgur.com/AQ5jZ2w.png)
