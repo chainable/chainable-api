@@ -16,7 +16,7 @@ In this scenario we have stateless commands executing logic and modifying the st
 
 A common pattern is to have warm-up and clean up code to be executed before and afterwards the execution of a chain, so we have a special type of command called Filter which implements the [Pipelines and filters](http://webcem01.cem.itesm.mx:8005/apps/s200911/tc3003/notes_pipes_and_filters/) where at the beginning and end of any chain we are given the chance to execute some computation needed.
 
-An in memory store is bundled - with a size of (Commands * k) where k is the revisions to be kept in memory  - as optional. The _RevisionFilter_ is responsible to maintain _snapshots_ -or _diffs_- of context changes. It ease the time to undo some command executed earlier on.
+An in memory store is bundled - with a size of (Commands * k) where k is the revisions to be kept in memory  - as optional. The _RevisionGenerator_ is responsible to maintain _snapshots_ -or _diffs_- of context changes. It eases the time to undo some command executed earlier on using the [Memento Pattern](http://en.wikipedia.org/wiki/Memento_pattern).
 
 ## The almight Command
 ![Command](http://i.imgur.com/jfB7SGZ.png)
@@ -26,7 +26,7 @@ The Command is the main actor at the stage. It represents a unit of work. A Comm
 The possible returns of a Command are: 
 * **CONTINUE:** the execution of the Chain will continue until it's finished. 
 * **FINISHED:** ends the execution of the Current Chain (yes, they can be nested as we will see in a moment). Once a Chain if finished all the ```filter.postHandle(ExecutionContext ctx)``` are executed in the reversed order in which they are registered.
-* A third scenario is when a **ERRORs** occur, the default behavior is to stop the chains and execute the Filters (again, in the reversed order in which they are registered), but you can choose to override or provide a custom ```SkipPolicy(Exception exceptions...)``` to continue the execution of the other commands/ chains.
+* A third scenario is when a **ERRORs** occur, the default behavior is to stop the chains and execute the Filters (again, in the reversed order in which they are registered), but you can choose to override or provide a custom ```SkipPolicy(Exception exceptions...)``` to continue the execution of the other commands/chains.
 
 
 ## Do you | and _Filter_?
