@@ -5,4 +5,4 @@ A commons-chains clone with our flavor of modifications
 
 # Overview
 
-![ArchitecturalOverview](http://i.imgur.com/gPfLchY.png)
+![ArchitecturalOverview](http://i.imgur.com/mWnohTV.png)
