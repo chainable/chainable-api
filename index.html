@@ -12,7 +12,7 @@
   <body>
     <section class="page-header">
       <h1 class="project-name">chainable.io</h1>
-      <h2 class="project-tagline">A commons-chains clone with our flavor of modifications</h2>
+      <h2 class="project-tagline">A commons-chains clone with steroids</h2>
       <a href="https://github.com/bemobi/chainable" class="btn">View on GitHub</a>
       <a href="https://github.com/bemobi/chainable/zipball/master" class="btn">Download .zip</a>
       <a href="https://github.com/bemobi/chainable/tarball/master" class="btn">Download .tar.gz</a>
@@ -20,25 +20,18 @@
 
     <section class="main-content">
       <h1>
-<a id="" class="anchor" href="#" aria-hidden="true"><span class="octicon octicon-link"></span></a><img src="http://i.imgur.com/TSWp83w.png" alt="Chainable Lib">
-</h1>
-
-<p><a href="https://travis-ci.org/bemobi/chainable"><img src="https://travis-ci.org/bemobi/chainable.svg?branch=master" alt="Build Status"></a></p>
-
-<p>A commons-chains clone with our flavor of modifications </p>
-
 <h2>
 <a id="overview" class="anchor" href="#overview" aria-hidden="true"><span class="octicon octicon-link"></span></a>Overview</h2>
 
 <p><img src="http://i.imgur.com/mWnohTV.png" alt="ArchitecturalOverview">
-We use <a href="http://commons.apache.org/proper/commons-chain/"><em>apache commons-chains</em></a> project in a platform at <a href="http://code.bemobi.com.br/blog/">Bemobi</a> and at some point it become a pain to maintain a catalog with hundreds of lines. Here comes main idea behind the chained project, to improve configurability, maintenability, to be less verbose, to ease the integration between our chains codebase with Spring and give a few tweaks.</p>
+We use <a href="http://commons.apache.org/proper/commons-chain/"><em>apache commons-chains</em></a> project in a platform at <a href="http://code.bemobi.com.br/blog/">Bemobi</a> and at some point it become a pain to maintain a catalog with hundreds of lines. Here comes main idea behind the chainable project, to improve configurability, maintenability, to be less verbose, to ease the integration between our chains codebase with Spring and give a few tweaks.</p>
 
-<p>Except from <a href="http://commons.apache.org/proper/commons-chain/"><em>apache commons-chains</em></a> project page:</p>
+<p>Excerpt from <a href="http://commons.apache.org/proper/commons-chain/"><em>apache commons-chains</em></a> project page:</p>
 
 <blockquote>
 <p>A popular technique for organizing the execution of complex processing flows is the <a href="http://en.wikipedia.org/wiki/Chain_of_responsibility">"Chain of Responsibility"</a> pattern, as described (among many 
 other places) in the classic "Gang of Four" design patterns book. Although the fundamental API contracts
-required to implement this design patten are extremely simple, it is useful to have a base API that &gt;facilitates using the pattern, and (more importantly) encouraging composition of command implementations &gt;from multiple diverse sources.</p>
+required to implement this design patten are extremely simple, it is useful to have a base API that facilitates using the pattern, and (more importantly) encouraging composition of command implementations from multiple diverse sources.</p>
 </blockquote>
 
 <p>In this scenario we have stateless commands executing logic and modifying the state of a context which will be shared along the chain. </p>
