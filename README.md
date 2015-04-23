@@ -1,16 +1,16 @@
 # ![Chainable Lib](http://i.imgur.com/TSWp83w.png)
 [![Build Status](https://travis-ci.org/bemobi/chainable.svg?branch=master)](https://travis-ci.org/bemobi/chainable)
 
-A commons-chains clone with our flavor of modifications 
+A commons-chains clone with steroids
 
 ## Overview
 ![ArchitecturalOverview](http://i.imgur.com/mWnohTV.png)
-We use [_apache commons-chains_](http://commons.apache.org/proper/commons-chain/) project in a platform at [Bemobi](http://code.bemobi.com.br/blog/) and at some point it become a pain to maintain a catalog with hundreds of lines. Here comes main idea behind the chained project, to improve configurability, maintenability, to be less verbose, to ease the integration between our chains codebase with Spring and give a few tweaks.
+We use [_apache commons-chains_](http://commons.apache.org/proper/commons-chain/) project in a platform at [Bemobi](http://code.bemobi.com.br/blog/) and at some point it become a pain to maintain a catalog with hundreds of lines. Here comes main idea behind the chainable project, to improve configurability, maintenability, to be less verbose, to ease the integration between our chains codebase with Spring and give a few tweaks.
 
 Except from [_apache commons-chains_](http://commons.apache.org/proper/commons-chain/) project page:
 >A popular technique for organizing the execution of complex processing flows is the ["Chain of Responsibility"](http://en.wikipedia.org/wiki/Chain_of_responsibility) pattern, as described (among many 
->other places) in the classic "Gang of Four" design patterns book. Although the fundamental API contracts
->required to implement this design patten are extremely simple, it is useful to have a base API that >facilitates using the pattern, and (more importantly) encouraging composition of command implementations >from multiple diverse sources.
+other places) in the classic "Gang of Four" design patterns book. Although the fundamental API contracts
+required to implement this design patten are extremely simple, it is useful to have a base API that >facilitates using the pattern, and (more importantly) encouraging composition of command implementations >from multiple diverse sources.
 
 In this scenario we have stateless commands executing logic and modifying the state of a context which will be shared along the chain. 
 
