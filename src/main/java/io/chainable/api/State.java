@@ -17,7 +17,7 @@
  *
  */
 
-package com.bemobi.chainable.api;
+package io.chainable.api;
 
 /**
  * A <code>State</code> encapsulates states that can be returned by

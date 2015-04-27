@@ -17,7 +17,7 @@
  *
  */
 
-package com.bemobi.chainable.api;
+package io.chainable.api;
 
 import java.util.Map;
 
