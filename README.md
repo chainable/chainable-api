@@ -20,4 +20,4 @@ An in memory store is bundled - with a size of (Commands * k) where k is the rev
 
 ---
 
-You can find more about the components and the inner working of the chainable on the [WIKI](https://github.com/bemobi/chainable/wiki)
+You can find more about the components and the inner working of the chainable on the [WIKI](https://github.com/chainable/chainable/wiki)
