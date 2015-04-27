@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>io.chainable</groupId>
-    <artifactId>chainable</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <artifactId>chainable-api</artifactId>
+    <version>0.1-SNAPSHOT</version>
 
 
 </project>
