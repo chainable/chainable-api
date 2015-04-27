@@ -1,5 +1,5 @@
 # ![Chainable Lib](http://i.imgur.com/TSWp83w.png)
-[![Build Status](https://travis-ci.org/bemobi/chainable.svg?branch=master)](https://travis-ci.org/bemobi/chainable)
+[![Build Status](https://travis-ci.org/chainable/chainable.svg?branch=master)](https://travis-ci.org/chainable/chainable)
 
 A commons-chains clone with steroids
 
